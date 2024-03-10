@@ -15,7 +15,7 @@ def main():
     """
     
     # Get Groq API key
-    groq_api_key = os.environ['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']
+    groq_api_key = os.environ['GROQ_API_KEY']
 
     # Display the Groq logo
     spacer, col = st.columns([5, 1])  
@@ -68,8 +68,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-
-
-
